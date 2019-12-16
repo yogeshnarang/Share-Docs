@@ -5,7 +5,7 @@ export default class Header extends React.Component{
     render(){
 
         const styleContainer = {
-            display:"felx",
+            // display:"flex",
             color: "white",
             backgroundColor: "#808080",
             padding: "10px",
@@ -42,7 +42,7 @@ export default class Header extends React.Component{
         };
         return(
             <div>
-                <h1 style = {{paddingLeft:"10px"}}>ShareDocs Testing Phase 1 </h1>
+                <h1 style = {{paddingLeft:"10px"}}>ShareDocs Testing Phase-1 </h1>
 
                 <div style={styleOptionsBar} className="OptionsBar-Container">
                     <h4>
